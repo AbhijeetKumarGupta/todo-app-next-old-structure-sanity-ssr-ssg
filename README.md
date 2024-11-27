@@ -1,3 +1,8 @@
+# Live Site Link                                                                                                                                                        
+https://todo-app-next-old-structure-sanity.netlify.app
+
+https://todo-app-next-old-structure-sanity-ssr-ssg.vercel.app/
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
