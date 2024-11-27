@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    gap: 10;
+    align-items: center;
+}
+
+.backButton {
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+.backButton:hover {
+    color: red;
+}
+
+.editButton {
+    padding: 8px 16px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 70px;
+    text-align: center;
+}
+
+.editButton:hover {
+    background-color: white;
+    color: black;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    gap: 30;
+    font-size: 15px;
+    margin: 20px;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.1);
+    padding: 20;
+    border-radius: 30px;
+}
+
+.task h2 {
+    color: yellow;
+}
+
+.deleteButton {
+    padding: 8px 16px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.deleteButton:hover {
+    background-color: darkred;
+}
+
+.deleteButton:focus {
+    outline: none;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}

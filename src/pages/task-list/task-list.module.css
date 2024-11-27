@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    gap: 10;
+    align-items: center;
+}
+
+.backButton {
+    font-size: 30px;
+    margin-right: 30px;
+}
+
+.backButton:hover {
+    color: red;
+}
+
+.task { 
+    display: block;
+    margin-bottom: 15px; 
+    padding: 10px 30px;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.task:hover {
+    opacity: 0.85;
+    border-color: red;
+    color: limegreen;
+}
