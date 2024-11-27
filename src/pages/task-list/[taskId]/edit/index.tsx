@@ -1,15 +1,15 @@
 'use client';
 
 import { useState, useEffect, FormEvent } from 'react';
-import { useParams, useRouter } from 'next/navigation';
+import { useRouter } from 'next/router';
 import client from '@/sanity/sanityClient';
 import Link from 'next/link';
 
 import styles from './edit.module.css';
 
 const EditTask = () => {
-    const { taskId } = useParams();
     const router = useRouter();
+    const { taskId } = router.query;
     const [task, setTask] = useState<Task | null>(null);
     const [name, setName] = useState<string>('');
     const [description, setDescription] = useState<string>('');
